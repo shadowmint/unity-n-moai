@@ -1,5 +1,6 @@
 using System.IO;
 using N.Package.Moai.LuaUtility;
+using UnityEditor;
 using UnityEngine;
 
 namespace N.Package.Moai.Example
@@ -41,6 +42,7 @@ namespace N.Package.Moai.Example
 
             var source = new LuaSourceCodeUtility(sourcesFolder, targetFolder, mode);
             source.CopySourcesToDestination();
+            AssetDatabase.Refresh();
         }
     }
 }
