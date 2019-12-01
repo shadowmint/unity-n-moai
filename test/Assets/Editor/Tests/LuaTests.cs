@@ -5,7 +5,7 @@ using NUnit.Framework;
 
 namespace Editor.Tests
 {
-    public class LuaRuntimeTest : TestCase
+    public class LuaTests : TestCase
     {
         [Test]
         public void TestRunBasicLuaCode()

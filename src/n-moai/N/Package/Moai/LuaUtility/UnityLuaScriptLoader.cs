@@ -4,7 +4,7 @@ using MoonSharp.Interpreter;
 using MoonSharp.Interpreter.Loaders;
 using UnityEngine;
 
-namespace Runtime
+namespace N.Package.Moai.LuaUtility
 {
     public class UnityLuaScriptLoader : ScriptLoaderBase
     {

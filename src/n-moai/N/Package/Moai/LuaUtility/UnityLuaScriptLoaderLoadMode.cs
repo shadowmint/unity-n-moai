@@ -1,4 +1,4 @@
-namespace Runtime
+namespace N.Package.Moai.LuaUtility
 {
     public enum UnityLuaScriptLoaderLoadMode
     {
